@@ -1,8 +1,8 @@
 #ifndef ARRAY_TPP
 # define ARRAY_TPP
 
-#include "Array.hpp"
-#include <iostream>
+# include "Array.hpp"
+# include <iostream>
 
 template<typename T>
 Array<T>::Array()

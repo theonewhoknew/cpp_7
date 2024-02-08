@@ -15,8 +15,6 @@ Array<T>::Array(unsigned int n)
 {
 	_ptr = new T[n];
 	_n = n;
-	for (unsigned int i = 0; i < _n; i++)
-		_ptr[i] = 0;
 }
 
 template<typename T>
@@ -63,7 +61,7 @@ const char* Array<T>::OutOfBoundsException::what(void) const throw()
 template<typename T>
 void	Array<T>::size()
 {
-	std::cout << _n << std::endl;
+	std::cout << "array size is " << _n << std::endl;
 }
 
 template<typename T>

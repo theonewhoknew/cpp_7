@@ -14,7 +14,7 @@ int	main(void)
 
 	char arr_char[10] = {'a', 'b', 'c'};
 
-	iter(arr, 3, add_one);
+	iter(arr_char, 3, add_one);
 
 	print_arr(arr_char, 3);
 

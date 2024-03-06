@@ -27,15 +27,4 @@ int	main(void)
 	print_arr(f_arr, 10);
 
 	std::cout << std::endl;
-
-/* 	char *str_arr[2];
-
-	str_arr[0] = strdup("hola");
-	str_arr[1] = strdup("adios");
-	free(str_arr[0]);
-	free(str_arr[1]);
-
- 	iter(str_arr, 2, add_one);
-
-	print_arr(str_arr, 2); */
 }
